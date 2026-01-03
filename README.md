@@ -168,6 +168,37 @@ This removes the need to inspect raw data files and provides a **user-friendly i
 
 **Placeholder – Add dashboard screenshot**
 
+## ⚙️ Technology Stack
+
+- **Cloud Platform**: AWS (EC2, CloudWatch, Cost Explorer)
+- **Backend**: Python, Boto3
+- **Data Processing**: Pandas, NumPy
+- **Web Framework**: Flask
+- **Operating System**: Linux (Ubuntu)
+- **Version Control**: Git & GitHub
+
+
+## 📂 Project Structure
+
+## 📌 Phase-1 Scope Summary
+
+- Focused on **Amazon EC2**
+- Single AWS account
+- Rule-based governance logic
+- Manual recommendation execution
+- Historical-data-based forecasting
+
+
+## 🔮 Future Enhancements (Phase-2)
+
+- Support for additional AWS services (S3, RDS, VPC)
+- Multi-resource dashboard filters
+- Advanced ML-based cost forecasting
+- Automated governance actions
+- Organization-level (multi-account) support
+
+
+
 
 
 
