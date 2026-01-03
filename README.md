@@ -43,7 +43,8 @@ This project addresses that gap by:
 
 ## 🏗️ System Architecture (Conceptual)
 
-**Placeholder – Add architecture diagram**
+<img width="1536" height="1024" alt="artchitecture flow" src="https://github.com/user-attachments/assets/a499151f-39db-4170-88a1-475885b5eebb" />
+
 
 
 ## 🚀 Project Workflow (Start to End)
@@ -57,6 +58,9 @@ This section explains **how the project was built and executed from start to end
 - An **AWS EC2 instance** was launched to act as the execution environment.
 - Secure access was established using **SSH and key-based authentication**.
 - A **Linux (Ubuntu)** environment was used to simulate a real-world cloud setup.
+
+<img width="1919" height="1009" alt="EC2 instance" src="https://github.com/user-attachments/assets/001c45ce-425f-4a53-a7cc-0c238db3117f" />
+
 
 ---
 
@@ -94,6 +98,9 @@ A Python script was developed to:
 - Normalize it
 - Store it in structured **JSON format**
 
+<img width="1919" height="1016" alt="cloudwatch metrics" src="https://github.com/user-attachments/assets/0b63b6ad-014a-4d2c-aad6-75b2d4c8b142" />
+
+
 ---
 
 ### Step 4: Cost Data Collection (AWS Cost Explorer)
@@ -106,6 +113,8 @@ Another Python module retrieves:
 This ensures:
 - Real billing data (not estimates)
 - Direct linkage to actual cloud spend
+
+<img width="1919" height="1019" alt="cost explorer" src="https://github.com/user-attachments/assets/3cba20fc-d614-474c-8bef-10aca9bedb12" />
 
 ---
 
@@ -166,7 +175,8 @@ This removes the need to inspect raw data files and provides a **user-friendly i
 
 ## 🖥️ Dashboard Preview
 
-**Placeholder – Add dashboard screenshot**
+<img width="1915" height="1018" alt="dashboard" src="https://github.com/user-attachments/assets/4a2a86db-ed85-4127-b907-30ac6dfdc068" />
+
 
 ## ⚙️ Technology Stack
 
@@ -176,9 +186,6 @@ This removes the need to inspect raw data files and provides a **user-friendly i
 - **Web Framework**: Flask
 - **Operating System**: Linux (Ubuntu)
 - **Version Control**: Git & GitHub
-
-
-## 📂 Project Structure
 
 ## 📌 Phase-1 Scope Summary
 
@@ -196,6 +203,7 @@ This removes the need to inspect raw data files and provides a **user-friendly i
 - Advanced ML-based cost forecasting
 - Automated governance actions
 - Organization-level (multi-account) support
+
 
 
 
