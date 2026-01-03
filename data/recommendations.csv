@@ -1,0 +1,2 @@
+instance_id,issue,avg_cpu,recommendation
+i-0bc89a5d0315ddc5b,Underutilized EC2 instance,7.061912256884461,Consider stopping the instance or downsizing

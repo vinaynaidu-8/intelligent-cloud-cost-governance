@@ -1,0 +1,2 @@
+timestamp,instance_id,instance_type,state,avg_cpu,daily_cost_usd
+2026-01-02,i-0bc89a5d0315ddc5b,t2.micro,running,7.061912256884461,0.0

@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-01-03",
+    "instance_id": "i-0bc89a5d0315ddc5b",
+    "instance_type": "t2.micro",
+    "state": "running",
+    "avg_cpu": 3.343027767251159
+  }
+]

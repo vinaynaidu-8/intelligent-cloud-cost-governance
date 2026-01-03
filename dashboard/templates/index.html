@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intelligent Cloud Cost Governance</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        h2 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 80%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+<h1>Intelligent Cloud Cost Governance – EC2 Dashboard</h1>
+
+<h2>EC2 Usage & Cost</h2>
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Instance ID</th>
+        <th>Type</th>
+        <th>CPU Avg (%)</th>
+        <th>Daily Cost (USD)</th>
+    </tr>
+    {% for row in usage %}
+    <tr>
+        <td>{{ row.timestamp }}</td>
+        <td>{{ row.instance_id }}</td>
+        <td>{{ row.instance_type }}</td>
+        <td>{{ row.avg_cpu }}</td>
+        <td>{{ row.daily_cost_usd }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Recommendations</h2>
+<table>
+    <tr>
+        <th>Instance ID</th>
+        <th>Issue</th>
+        <th>Recommendation</th>
+    </tr>
+    {% for rec in recommendations %}
+    <tr>
+        <td>{{ rec.instance_id }}</td>
+        <td>{{ rec.issue }}</td>
+        <td>{{ rec.recommendation }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Cost Forecast</h2>
+<table>
+    <tr>
+        <th>Avg Daily Cost</th>
+        <th>30-Day Forecast</th>
+        <th>90-Day Forecast</th>
+    </tr>
+    <tr>
+        <td>{{ forecast.average_daily_cost_usd }}</td>
+        <td>{{ forecast.forecast_30_days_usd }}</td>
+        <td>{{ forecast.forecast_90_days_usd }}</td>
+    </tr>
+</table>
+
+</body>
+</html>

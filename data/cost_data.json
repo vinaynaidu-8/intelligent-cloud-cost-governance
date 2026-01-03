@@ -1,0 +1,193 @@
+{
+  "GroupDefinitions": [
+    {
+      "Type": "DIMENSION",
+      "Key": "SERVICE"
+    }
+  ],
+  "ResultsByTime": [
+    {
+      "TimePeriod": {
+        "Start": "2025-12-26",
+        "End": "2025-12-27"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {
+        "Start": "2025-12-27",
+        "End": "2025-12-28"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Amazon Simple Storage Service"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0.0000050018",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {
+        "Start": "2025-12-28",
+        "End": "2025-12-29"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {
+        "Start": "2025-12-29",
+        "End": "2025-12-30"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {
+        "Start": "2025-12-30",
+        "End": "2025-12-31"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {
+        "Start": "2025-12-31",
+        "End": "2026-01-01"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": false
+    },
+    {
+      "TimePeriod": {
+        "Start": "2026-01-01",
+        "End": "2026-01-02"
+      },
+      "Total": {},
+      "Groups": [
+        {
+          "Keys": [
+            "AWS Glue"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        },
+        {
+          "Keys": [
+            "Tax"
+          ],
+          "Metrics": {
+            "UnblendedCost": {
+              "Amount": "0",
+              "Unit": "USD"
+            }
+          }
+        }
+      ],
+      "Estimated": true
+    }
+  ],
+  "DimensionValueAttributes": [],
+  "ResponseMetadata": {
+    "RequestId": "74c7a12d-6e56-4e42-8315-6e1c571b165b",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Fri, 02 Jan 2026 11:46:29 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "1514",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "74c7a12d-6e56-4e42-8315-6e1c571b165b",
+      "cache-control": "no-cache"
+    },
+    "RetryAttempts": 0
+  }
+}
