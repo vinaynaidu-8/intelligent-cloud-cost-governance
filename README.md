@@ -27,17 +27,6 @@ This project addresses that gap by:
 - Predicting **future costs**
 - Presenting everything in a **single dashboard**
 
----
-
-## 🧠 What This Project Does (High-Level)
-
-1. Monitors real cloud resource usage (CPU, runtime, state)
-2. Retrieves real AWS billing data
-3. Correlates usage with cost
-4. Identifies inefficiencies
-5. Generates recommendations
-6. Forecasts future cost
-7. Displays insights via a web dashboard
 
 ---
 
@@ -45,7 +34,7 @@ This project addresses that gap by:
 
 <img width="1536" height="1024" alt="artchitecture flow" src="https://github.com/user-attachments/assets/a499151f-39db-4170-88a1-475885b5eebb" />
 
-
+---
 
 ## 🚀 Project Workflow (Start to End)
 
@@ -203,6 +192,7 @@ This removes the need to inspect raw data files and provides a **user-friendly i
 - Advanced ML-based cost forecasting
 - Automated governance actions
 - Organization-level (multi-account) support
+
 
 
 
